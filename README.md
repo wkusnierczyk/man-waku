@@ -1,5 +1,7 @@
 # man-waku
 
+[![Build Status](https://travis-ci.org/wkusnierczyk/man-waku.svg?branch=master)](https://travis-ci.org/wkusnierczyk/man-waku)
+
 ```
 man 7 waku
 ```
@@ -15,7 +17,7 @@ Builds a PDF file with the man page.
 ## Install
 
 ```
-make install
+sudo make install
 ```
 
 Copies and compresses the source to the respective `man` directory on your system.
